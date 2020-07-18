@@ -9,5 +9,5 @@ php:
 before_script:
   - phpenv config-rm xdebug.ini
 install:
-  - composer install --no-dev --quiet
+  - composer install --quiet
 script: phpunit
