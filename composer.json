@@ -1,0 +1,24 @@
+{
+    "name": "angrygun/solid",
+    "description": "OOP SOLID",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "angrygun",
+            "email": "horse19020240@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^9.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Solid\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Solid\\Tests\\": "tests/"
+        }
+    }
+}
