@@ -1,4 +1,4 @@
-# OOP SOLID design principles  [![Build Status](https://travis-ci.org/angrygun/solid.svg?branch=master)](https://travis-ci.org/github/angrygun/solid)
+# OOP SOLID design principles  [![Build Status](https://travis-ci.org/angrygun/solid.svg?branch=master)](https://travis-ci.org/angrygun/solid)
 
 * Single-responsibility principle 单一功能
 * Open–closed principle 开闭原则
