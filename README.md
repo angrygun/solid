@@ -10,6 +10,12 @@
 
 以计算圆形、正方形、球体、长方体面积及体积相关逻辑需求为示例练习
 
+### Requirement
+1. PHP >= 7.3
+2. **[Composer](https://getcomposer.org/)**
+
+
+使用
 ```
 composer install
 ```
