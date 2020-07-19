@@ -1,4 +1,4 @@
-# OOP SOLID design principles  [![Build Status](https://travis-ci.org/angrygun/solid.svg?branch=master)](https://travis-ci.org/angrygun/solid) [![codecov](https://codecov.io/gh/angrygun/solid/branch/master/graph/badge.svg)](https://codecov.io/gh/angrygun/solid)
+# OOP SOLID design principles  [![Build Status](https://travis-ci.org/angrygun/solid.svg?branch=master)](https://travis-ci.org/angrygun/solid) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/angrygun/solid/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/angrygun/solid/?branch=master) [![codecov](https://codecov.io/gh/angrygun/solid/branch/master/graph/badge.svg)](https://codecov.io/gh/angrygun/solid)
 
 * Single-responsibility principle 单一功能
 * Open–closed principle 开闭原则
@@ -10,17 +10,17 @@
 
 以计算圆形、正方形、球体、长方体面积及体积相关逻辑需求为示例练习
 
-调用测试
+```
+composer install
+```
+
+调用
 ```
 php Invoke.php
 ```
 
 PHPUnit测试
 ```
-composer install
-```
-
-```
-phpunit
+./vendor/bin/phpunit
 ```
 
