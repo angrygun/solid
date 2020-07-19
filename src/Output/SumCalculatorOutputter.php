@@ -7,6 +7,7 @@
 namespace Solid\Output;
 
 use Solid\Calculator\AreaCalculator;
+use Solid\Calculator\Calculator;
 use Solid\Exception\AreaCalculatorInvalidShapeException;
 
 /**
@@ -19,16 +20,15 @@ class SumCalculatorOutputter
 
     /**
      * SumCalculatorOutput constructor.
-     * @param AreaCalculator $areaCalculator
+     * @param Calculator $areaCalculator
      */
-    public function __construct(AreaCalculator $areaCalculator)
+    public function __construct(Calculator $areaCalculator)
     {
         $this->calculator = $areaCalculator;
     }
 
     /**
      * @return false|string
-     * @throws AreaCalculatorInvalidShapeException
      */
     public function JSON()
     {
@@ -41,7 +41,6 @@ class SumCalculatorOutputter
 
     /**
      * @return string
-     * @throws AreaCalculatorInvalidShapeException
      */
     public function HTML()
     {
