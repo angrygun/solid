@@ -27,4 +27,4 @@ $volume = [
 $solidShape = new Solid\Calculator\VolumeCalculator($volume);
 $outputs1 = new Solid\Output\SumCalculatorOutputter($solidShape);
 
-echo $outputs1->HTML(). PHP_EOL;
+echo $outputs1->HTML() . PHP_EOL;

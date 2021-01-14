@@ -16,7 +16,6 @@ spl_autoload_register(function ($class) {
         return;
     }
 
-
     // 获取去掉前缀后的类名
     $relativeClass = substr($class, $len);
 
