@@ -4,7 +4,8 @@
  * Author: Angry Gun.
  * Date: 2020/5/14 17:42
  */
-//require('./autoload.php');
+require('./autoload.php'); // spl_autoload_register
+//require('./vendor/autoload.php'); // composer autoload
 
 $shapes = [
     new Solid\Shape\Circle(2),

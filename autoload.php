@@ -24,8 +24,9 @@ spl_autoload_register(function ($class) {
     // 在去掉前缀的类名中，把命名空间分隔符替换成目录分隔符，
     // 然后在后面加上.php
     // 这个命名空间前缀对应的基目录
-    $baseDir = __DIR__ . DIRECTORY_SEPARATOR;
-    $file    = $baseDir . str_replace('\\', '/', $relativeClass) . '.php';
+    $baseDir = __DIR__ . DIRECTORY_SEPARATOR . 'src';
+    $file    = $baseDir . DIRECTORY_SEPARATOR . str_replace('\\', '/',
+            $relativeClass) . '.php';
 
     // 如果给文件存在，将其导入
     if (file_exists($file)) {
